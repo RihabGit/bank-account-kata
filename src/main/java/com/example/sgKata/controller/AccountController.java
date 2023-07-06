@@ -10,7 +10,8 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@RestController(value = "account")
+@RestController
+@RequestMapping("/account")
 @Tag(name = "Bank Account API", description = "APIs for bank account management")
 public class AccountController {
 
